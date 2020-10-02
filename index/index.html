@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<meta content="width=device-width, initial-scale=1" name="viewport" />-->
+<!--<meta name="viewport" content="width=device-width,initial-scale=1000">-->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Personal Website </title><link rel = "icon" href =  
+"https://www.freepik.com/free-vector/colorful-gradient-abstract-logo_6758040.htm#page=1&query=%20logos&position=1" 
+        type = "image/x-icon">
+	<!--<link rel="stylesheet"  media="screen and (max-width:500px)  and (min-width:10px)"  href="phone.css"> <link rel="stylesheet"  media="screen and (max-width:1300px)  and (min-width:994px)"  href="jarvis.css">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<head>
+</head>
+<body>
+ <!--body tag for my function loading-->
+	<body onload ="my()" > <!-- it get loaded function of window goes to this function-->
+
+		<div id="loading" >
+		<img src="/24.gif">
+			</div>
+			
+	<div id="website">
+
+	<div class="nav">
+		<div class="logo">
+			<p>P A</p>
+
+		</div><div>
+		<img  onclick="off()"class="hamburger" src="https://img.icons8.com/doodle/48/000000/menu.png"/>
+<div id="navham" >
+	
+
+	<li >
+				<ul><a class="ha" href="#bg">HOME</a></ul>
+				<ul><a class="ha" href="#aboutus">ABOUT</a></ul>
+				<ul><a class="ha" href="#">RESUME</a></ul>
+				<ul><a class="ha" href="#">PROJECTS</a></ul>
+				<ul><a class="ha" href="#contactin">CONTACT</a></ul>
+			 </li>
+</div></div>
+	  <div class="right">
+			<li>
+				<ul><a href="#bg">HOME</a></ul>
+				<ul><a href="#aboutus">ABOUT</a></ul>
+				<ul><a href="#">RESUME</a></ul>
+				<ul><a href="#">PROJECTS</a></ul>
+				<ul><a href="#contactin">CONTACT</a></ul>
+			 </li>
+		     </div>
+	  	</div>
+
+               <div class="bg">       
+  <div class="matter">
+	<h3>I AM A</h3>
+	<span id="spa"></span>
+	<span class="blink"></span> 
+    </div>
+
+   
+</div>
+<div class="top"></div>
+            <div id="aboutus">
+
+    <div class="back">
+
+     <div class="aboutbox" data-aos="fade-up"  data-aos-delay="100"  data-aos-duration="1000">
+    <div class="aboutbox1">
+        <div class="profile">
+        
+            <p class="skillp">Skill</p>
+            <div class="classdetail">
+        <p>HTML</p>
+        <div class="move">
+            <div class="effect">
+        </div>
+        </div>
+        <p>CSS3</p>
+        <div  class="move">
+            <div class="effect">
+        </div>
+        </div>
+        <p>Javascript</p>
+        <div  class="move">
+            <div class="effect">
+        </div>
+        </div>
+        <p>React</p>
+        <div  class="move">
+            <div class="effect">
+        </div>
+        </div></div></div>
+        </div><div class="aboutbox2">
+            <div class="aboutus1">
+                <p class="ist">About us</p>
+                <hr>
+                <p class="nd">In an essay, article, or book, an introduction (also known as a prolegomenon) is a beginning section which states the purpose and goals of the following writing. This is generally followed by the body and conclusion.
+
+The introduction typically describes the scope of the document and gives the brief explanation or summary of the document. It may also explain certain elements that are important to the essay if explanations are not part of the main text. The readers can have an idea about the following text before they actually start reading it.
+
+</p> 
+            </div>
+        </div>
+    
+        </div></div>
+
+   <div id="contactin">
+	<div class="cblog">
+		
+	<span class="fa fa-facebook"  aria-hidden="true">		
+	</span>
+
+
+		<span  class="fa fa-github"   aria-hidden="true"></span>
+<span class="fa fa-linkedin"  aria-hidden="true"></span>
+<span class="fa fa-envelope-o" aria-hidden="true"></span>
+<span class="fa fa-google-plus" aria-hidden="true"></span>
+	</div>
+	<div class="line">
+	<hr style="     height: 0vh; color: #aaa;
+ ">
+	<div class="privacy"> ©2020. All rights reserved | Designed by Pratham Arora</div>
+	
+</div></div>
+   </div>
+      
+        
+
+
+</body>
+<script>
+		//$(document).ready(function(){
+			 //	$('div#loading').removeAttr('id');
+		// });
+		let t=1000;
+		var preloader = document.getElementById("loading");
+	
+		//window.addEventListener('load', function(){
+		 //	preloader.style.display = 'none';
+		 //	})
+		function my(){
+			preloader.style.display ="none";
+		
+
+
+
+		};
+		let i=0,m=0,s=0;
+		function sio(){
+		let spa=document.getElementById('spa');
+		let arr1=['D','E','V','E','L','O','P','E','R'];
+		let arr2=['D','E','S','I','G','N','E','R'];
+		let arr3=['P','R','A','T','H','A','M'];
+
+		//['DEVELOPER','DESIGNER','EXPERT'];
+		if(i<arr1.length){
+			
+	spa.innerHTML+=arr1[i];
+	i++;
+
+}
+	else if(i==arr1.length||m==arr2.length||s==arr3.length){
+	
+  spa.innerHTML='';
+   i++;
+   if(m==arr2.length){
+   m++;}
+else if(s==arr3.length){
+  s++;
+}
+   
+ if(i>arr1.length){
+   	if(m>arr2.length){
+   		if(s>arr3.length){
+   i=0;
+   m=0;
+   s=0;
+   }}}}
+  
+   
+	else if(m<arr2.length){
+		spa.innerHTML+=arr2[m];
+		m++;
+
+	}
+	else if(s<arr3.length){
+
+		spa.innerHTML+=arr3[s];
+s++;
+	}
+}
+
+	let x=setInterval(sio,t);
+t=t-50;
+if(t<0){
+	t=500;
+}
+		function off(){
+			let changeable=document.getElementById('navham');
+			if(changeable.style.display!='block'){
+			changeable.style.display="block";}
+			else{
+				
+				
+				changeable.style.display="none";
+
+			}
+		}
+		//document.addEventListener('contextmenu', event => event.preventDefault());
+		//document.addEventListener('keydown',(e)=>{
+		//if(e.keycode==17);{
+		//	e.preventDefault();	}	console.log(e);});
+		</script>
+                </body>
+                </html>
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
